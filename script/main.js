@@ -88,7 +88,7 @@ function updateNavbar() {
     document.getElementById("logout-btn").addEventListener("click", handleLogout);
   } else {
     // If not logged in, show "Login"
-    navbarUser.innerHTML = `<a href="login.html">Login</a>`;
+    navbarUser.innerHTML = `<a href="pages/login.html">Login</a>`;
   }
 }
 
@@ -100,7 +100,7 @@ function handleLogout() {
   localStorage.clear();
   alert("You have been logged out.");
   updateNavbar(); // Update navbar to show "Login"
-  window.location.href = "login.html"; // Redirect to login page
+  window.location.href = "pages/login.html"; // Redirect to login page
 }
 
 let cart = JSON.parse(localStorage.getItem("cart")) || []; // Load cart from localStorage
