@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", updateCartCount);
 
 document.getElementById("cart-icon").addEventListener("click", (e) => {
   e.preventDefault(); // Prevent default link behavior
-  window.location.href = "cart.html"; // Redirect to cart.html
+  window.location.href = "pages/cart.html"; // Redirect to cart.html
 });
 
 
