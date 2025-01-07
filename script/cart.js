@@ -97,6 +97,7 @@ proceedToPaymentBtn.addEventListener("click", async () => {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount: totalAmount, userName }), // Amount in cents
+      credentials: "include",
     });
 
     if (response.ok) {
