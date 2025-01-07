@@ -128,7 +128,7 @@ proceedToPaymentBtn.addEventListener("click", async () => {
 
 // Proceed to Home Page
 proceedToHomePageBtn.addEventListener("click", () => {
-  window.location.href = "/frontend/pages/index.html"; // Redirect to the home page
+  window.location.href = "index.html"; // Redirect to the home page
 });
 
 // Render cart on page load
