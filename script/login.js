@@ -17,7 +17,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
       alert("Login successful!");
       localStorage.setItem("email", email);
       localStorage.setItem("isAuthenticated", "true"); // Persist authentication state
-      window.location.href = "index.html"; // Redirect to home page
+      window.location.href = "/"; // Redirect to home page
     } else {
       const errorData = await response.json();
       alert(errorData.message || "Login failed.");
