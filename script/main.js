@@ -153,12 +153,12 @@ document.querySelectorAll(".add__cart").forEach((button) => {
 });
 
 const modalWatches = [
-  { id: "7", name: "C63 Sealander", price: 945, image: "/frontend/assets/arrival-7.png" },
-  { id: "8", name: "Hamilton Field Khaki", price: 1199, image: "/frontend/assets/arrival-8.png" },
-  { id: "9", name: "Baume Moonphase", price: 950, image: "/frontend/assets/arrival-9.png" },
-  { id: "10", name: "PRX Powermatic 80", price: 675, image: "/frontend/assets/arrival-10.png" },
-  { id: "11", name: "Alpinist SPB121", price: 1099, image: "/frontend/assets/arrival-11.png" },
-  { id: "12", name: "Sub 200", price: 1100, image: "/frontend/assets/arrival-12.png" },
+  { id: "7", name: "C63 Sealander", price: 945, image: "assets/arrival-7.png" },
+  { id: "8", name: "Hamilton Field Khaki", price: 1199, image: "assets/arrival-8.png" },
+  { id: "9", name: "Baume Moonphase", price: 950, image: "assets/arrival-9.png" },
+  { id: "10", name: "PRX Powermatic 80", price: 675, image: "assets/arrival-10.png" },
+  { id: "11", name: "Alpinist SPB121", price: 1099, image: "assets/arrival-11.png" },
+  { id: "12", name: "Sub 200", price: 1100, image: "assets/arrival-12.png" },
 ];
 
 // DOM Elements
