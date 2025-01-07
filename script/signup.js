@@ -10,6 +10,7 @@ document.getElementById("signup-form").addEventListener("submit", async (e) => {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, email, password }),
+      credentials: "include",
     });
 
     if (response.ok) {
