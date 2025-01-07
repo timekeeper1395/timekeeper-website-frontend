@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="/frontend/styles/cart.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Your Cart</h1>
+      <div id="cart-container">
+        <!-- Cart items will be displayed here -->
+      </div>
+      <button id="proceed-to-payment" class="btn">Proceed to Payment</button>
+      <button id="proceed-to-homepage" class="btn">Back to Home Page</button>
+    </main>
+
+<script src="https://js.stripe.com/v3/"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="/frontend/script/cart.js"></script>
+
+  </body>
+</html>
