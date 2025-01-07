@@ -100,7 +100,7 @@ function handleLogout() {
   localStorage.clear();
   alert("You have been logged out.");
   updateNavbar(); // Update navbar to show "Login"
-  window.location.href = "pages/login.html"; // Redirect to login page
+  window.location.href = "../pages/login.html"; // Redirect to login page
 }
 
 let cart = JSON.parse(localStorage.getItem("cart")) || []; // Load cart from localStorage
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", updateCartCount);
 
 document.getElementById("cart-icon").addEventListener("click", (e) => {
   e.preventDefault(); // Prevent default link behavior
-  window.location.href = "pages/cart.html"; // Redirect to cart.html
+  window.location.href = "../pages/cart.html"; // Redirect to cart.html
 });
 
 
